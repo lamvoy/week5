@@ -1,7 +1,6 @@
 {
   "name": "w5",
   "version": "1.0.0",
-  "description": "",
   "main": "w5server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +10,17 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "ejs": "^2.6.2",
-    "express": "^4.17.1"
-  }
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamvoy/week5.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lamvoy/week5/issues"
+  },
+  "homepage": "https://github.com/lamvoy/week5#readme",
+  "description": ""
 }
