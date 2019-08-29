@@ -16,12 +16,10 @@ app.use(bodyParser.urlencoded({
 app.use(express.static('img'));
 app.use(express.static('css'));
 
-//what is?
-//app.use(bodyParser.json())
 
 let db = [];
 
-let showView = __dirname+"/views/";//what is showview?
+let showView = __dirname + "/views/";
 
 app.get('/', (req, res)=>{
     res.sendFile(showView+"/index.html")
